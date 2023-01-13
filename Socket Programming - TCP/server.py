@@ -1,3 +1,5 @@
+# Works for only one client
+
 import socket
 import pickle
 import csv
