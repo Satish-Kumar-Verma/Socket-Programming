@@ -27,7 +27,7 @@ def get_records(conn_id):
                 file.write(line)
                 line = conn_id.recv(1024)
 
-        print("[+] Data is received!")
+        print("[+] Survey data is received!")
         return True
     except Exception as e:
         print(e)
@@ -89,7 +89,7 @@ def main():
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket:
         try:
-            client_socket.connect((host, port))
+            client_socket.connect_ex((host, port))
             msg = client_socket.recv(1024).decode('utf-8')  # default -> utf-8, you may not specify it
 
             print(f"[+] {msg} with the host : {host}\n")

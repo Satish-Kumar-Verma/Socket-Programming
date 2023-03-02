@@ -37,6 +37,12 @@ class Cookie:
     def set_time_of_creation(self):
         self.time_of_creation = datetime.datetime.now().strftime("%H:%M:%S")
 
+    def update_session(self):
+        self.time_of_creation = datetime.datetime.now().strftime("%H:%M:%S")
+
+    def get_cookie(self):
+        return self
+
     @staticmethod
     def valid(cookie):
 
