@@ -12,7 +12,7 @@ Welcome to **Socket Programming** in Python. This repository demonstrates client
 - **Real-Time Data Transfer**: Logs and displays survey data in real-time for the admin.
 
 ### Version 2.0 (Multiple Concurrent Connections)
-- **Admin Panel**: Allows root users to log in and view the survey data.
+- **Admin Panel**: Allows root users to log in and view the survey data as well as live and total visited connections.
 - **Multi-Threading**: Supports multiple concurrent client connections.
 - **Survey System**: Similar survey mechanism as Version 1.0 with enhanced functionality.
 - **Security**: Admin credentials are handled more securely.
@@ -33,7 +33,7 @@ Socket-Programming/
 │   │   └── survey_data.csv  # Stored survey data
 │
 │   ├── Version 2.0/
-│   │   ├── admin.py        # Multi-threaded admin panel (can view live/visited connections) as well as the survey results
+│   │   ├── admin.py        # Multi-threaded admin panel
 │   │   ├── client.py       # Client program for survey
 │   │   ├── server.py       # Server for handling multiple concurrent connections
 │   │   ├── helper.py       # Helper functions for credentials and session handling
