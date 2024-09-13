@@ -51,7 +51,7 @@ Socket-Programming/
 ### Clone the repository
 ```bash
 git clone https://github.com/Satish-Kumar-Verma/Socket-Programming.git
-cd Socket-Programming/TCP
+cd Socket-Programming - TCP/
 ```
 
 ### Install required dependencies
