@@ -33,7 +33,7 @@ Socket-Programming/
 │   │   └── survey_data.csv  # Stored survey data
 │
 │   ├── Version 2.0/
-│   │   ├── admin.py        # Multi-threaded admin panel
+│   │   ├── admin.py        # Multi-threaded admin panel (can view live/visited connections) as well as the survey results
 │   │   ├── client.py       # Client program for survey
 │   │   ├── server.py       # Server for handling multiple concurrent connections
 │   │   ├── helper.py       # Helper functions for credentials and session handling
@@ -125,7 +125,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙋‍♂️ Support
 
-For questions or support, open an issue or contact me at [email@example.com](mailto:email@example.com).
+For questions or support, open an issue or contact me at [hlaminnaing013@gmail.com](mailto:hlaminnaing013@gmail.com).
 
 ---
 
